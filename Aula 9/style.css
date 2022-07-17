@@ -1,0 +1,81 @@
+.footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: D6EAD4;
+      color: green;
+      text-align: center;
+      font-style: oblique;
+}
+
+.Header{
+      width: :800px;
+      height: auto;
+      margin-left:auto;
+      margin-right:auto;
+      background-color: rgb(179, 221, 179);
+}
+
+.SideBar{
+      width: :25%;
+      height: 200px;
+      text-align: left;
+      margin-left:auto;
+      margin-right:auto;
+      background-color: D6EAD4;
+}
+
+.Content{
+      width: :75%;
+      height: 200px;
+      text-align: center;
+      margin-left:auto;
+      margin-right:auto;
+      background-color: cadetblue;
+}
+
+.Post{
+      width: :60%;
+      height: 200px;
+      text-align: justify;
+      margin-left:auto;
+      margin-right:auto;
+      background-color: AFCEB2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table class="table table-striped table-bordered table-hover" id="">
+       <thead>
+             <tr>
+                <th>Icone</th>
+                <th>Nome</th>
+                <th>Categoria</th>
+                <th>Tipo</th>
+                <th>Level</th>
+                <th>Preço</th>
+            </tr>
+      </thead>
+      <tbody>
+             <tr>
+             <td style="text-align: center;"><img src="https://www.google.com.br/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"></td>
+             <td style="text-align: center; vertical-align:middle !important">teste</td>
+             <td style="text-align: center; vertical-align:middle !important">teste</td>
+             <td style="text-align: center; vertical-align:middle !important">teste</td>
+             <td style="text-align: center; vertical-align:middle !important">teste</td>
+             <td style="text-align: center; vertical-align:middle !important"></td>
+             </tr>
+     </tbody>
+</table>

@@ -1,0 +1,73 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <font face="arial">arial</font>
+ <font color="green">verde</font>
+ <font align= "center"> Texto Centralizado </font>
+ <font size="3" face="Verdana">
+
+ <b>negrito</b>
+ <i>itálico</i>
+ <u>sublinhado</u>
+
+ <p>parágrafo</p> -->
+
+ <!-- Este é um comentário -->
+
+<a href="http://www.hsw.com.br"> HowStuffWorks </a>
+<a href="mailto:exemplo@howstuffworks.com"> Envie-me um e-mail </a>
+<img src="nome do arquivo de imagem.extensão">
+
+ <!--<h1>Este é um título 1</h1>
+<h2>Este é um título 2</h2>
+<h3>Este é um título 3</h3>
+<h4>Este é um título</h4>
+<h5>Este é um título</h5>
+<h6>Este é um título</h6> -->

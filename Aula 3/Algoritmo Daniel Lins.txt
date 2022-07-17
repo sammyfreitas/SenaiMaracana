@@ -1,0 +1,70 @@
+Algoritmo e Linguagel de Programação 1
+	
+	consumo, totalTrecho, planejado, alternativo, margem capacidade, litros, totalCombustivel, abastecimento: real
+
+funcao CalculaTrecho
+var
+	totalTrecho: real
+inicio
+	total <- planejado + alternativo
+	retorna totalTrecho
+fimfuncao
+
+funcao Margem
+var
+	margem: real
+inicio
+	margem <- totalTrecho * 1,3
+	retorna margem
+fimfuncao
+
+funcao Combustivel
+var
+	 totalCombustivel: real
+inicio
+	totalCombustivel <- litros * totalTrecho
+	retorna totalCombustivel
+fimfuncao
+	
+procedimento ValidarVoo
+var
+	abastecimento: real  
+inicio
+	Se totalCombustivel = capacidade então
+		Escreva ("Vôo Aprovado. Bom Vôo!")
+	FimSe
+	Se totalCombustivel < capacidade  então
+		abastecimento <- capacidade - totalCombustivel
+		Escreva ("Abastecer: " , abastecimento)
+		Escreva("Vôo Reprovado, reveja seu planejamento.")
+	FimSe
+	Se totalCombustivel > capacidade  então
+		Escreva("Vôo Reprovado, reveja seu planejamento.")
+	FimSe
+fimprocedimento
+
+	
+Início 
+	Escreva("Digite a média de consumo de litros/Km da aeronave") 
+	Leia (consumo) 
+	Escreva("Digite a capacidade do tanque de combustível da aeronave")
+	Leia(capacidade)
+	Escreva("Digite a quantidade de litros combustível disponiveis no tanque da aeronave")
+	Leia(litros)
+	Escreva("Digite quantos Km tem o trecho planejado") 
+	Leia(planejado) 
+	Escreva("Digite quantos Km tem o trecho alternativo") 
+	Leia(alternativo) 
+	
+	CalculaTrecho()
+	CalculaMargem()
+	CalculaCombustivel() 
+	
+	Escreva("Trecho planejado: ", planejado)
+	Escreva("Trecho alternativo: ", alternativo)
+	Escreva("Trecho total e planejado com margem de segurança: ", margem)
+	Escreva("Capacidade do tanque: ",capacidade)
+	Escreva("Combustível disponível no tanque: ",litros)
+	
+	ValidarVoo() 
+Fim
